@@ -16,28 +16,28 @@
   background-repeat: no-repeat;
   min-height: inherit;
   background-position: top;
-  background-image: url('/assets/images/Header.svg');
+  background-image: url('assets/images/Header.svg');
 }
 
 .c-nav-footer{
   background-repeat: no-repeat;
   min-height: inherit;
   background-position: bottom;
-  background-image: url('/assets/images/Footer.svg');
+  background-image: url('assets/images/Footer.svg');
 }
 
 @media (max-width: 600px) {
  .c-nav-header {
-    background-image: url('/assets/images/header-mobile.svg');
+    background-image: url('assets/images/header-mobile.svg');
   }
 
   .c-nav-footer {
-    background-image: url('/assets/images/footer-mobile.svg');
+    background-image: url('assets/images/footer-mobile.svg');
   }
 
   @media all and (orientation:landscape) {
     .c-nav-footer{
-      background-image: url('/assets/images/Footer.svg');
+      background-image: url('assets/images/Footer.svg');
     }
     .c-header-container{
       min-height: 60px;
