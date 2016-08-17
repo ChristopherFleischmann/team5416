@@ -1,3 +1,1 @@
-var gsap = require('gsap');
-
-console.log('test 6');
+//var gsap = require('gsap');

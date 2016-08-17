@@ -7,9 +7,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel='stylesheet' media='only screen and (max-device-width: 480px)' href='{{ "/css/main.css" | prepend: site.baseurl }}' />
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <!-- <link rel="stylesheet" href="/assets/styles/main.css"> -->
         <link rel="stylesheet" href="assets/styles/main.css">
     </head>
@@ -19,9 +20,25 @@
           <div class="c-nav-header"></div>
         </header>
 
-
         <footer class="c-footer-container">
-          <div class="c-nav-footer"></div>
+
+          <div class="media-container">
+            <ul class="c-media-icon-list-left">
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_fb.svg" class="c-image-size"></li>
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_twtr.svg" class="c-image-size"></li>
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_utube.svg" class="c-image-size"></li>
+            </ul>
+          </div>
+
+          <div class="c-logo-center"><img src="/assets/images/WLogo.png" class="c-image-size__logo"></div>
+
+            <ul class="c-media-icon-list-right">
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_fb.svg" class="c-image-size"></li>
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_fb.svg" class="c-image-size"></li>
+              <li class="c-image-li"><img src="/assets/images/Media-Icon_fb.svg" class="c-image-size"></li>
+            </ul>
+
+            <div class="c-nav-footer"></div>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
